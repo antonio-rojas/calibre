@@ -295,6 +295,24 @@ static const char specialLanguages[][6] = {
     "", // MasaramGondi
     "", // Nushu
     "", // Soyombo
+#if (QT_VERSION >= QT_VERSION_CHECK(5, 15, 0))
+    "", // ZanabazarSquare
+    "", // Dogra
+    "", // GunjalaGondi
+    "", // HanifiRohingya
+    "", // Makasar
+    "", // Medefaidrin
+    "", // OldSogdian
+    "", // Sogdian
+    "", // Elymaic
+    "", // Nandinagari
+    "", // NyiakengPuachueHmong
+    "", // Wancho
+    "", // Chorasmian
+    "", // DivesAkuru
+    "", // KhitanSmallScript
+    "" // Yezidi
+#else
     "" // ZanabazarSquare
 #else
     ""  // SignWriting
